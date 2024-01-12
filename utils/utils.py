@@ -19,7 +19,7 @@ def init_wallet():
             logger.error("Wallet init failed, fill config file correctly")
             raise "Bad_config"
     else:
-        wallet = EVMWallet()
+        wallet = EVMWallet(config.RPC)
     return wallet
 
 
