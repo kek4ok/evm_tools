@@ -1,0 +1,3 @@
+PRIVATE_KEY = ""
+RPC = "opBNB"
+MNEMONIC = ""
